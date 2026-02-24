@@ -67,8 +67,6 @@ async def check_mail():
                 subject = subject.decode(encoding or "utf-8")
 
             # 🔎 Adjust this filter if needed after testing
-            if "reborn" not in sender.lower():
-                continue
 
             body = ""
 
